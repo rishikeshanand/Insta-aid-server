@@ -1,0 +1,21 @@
+{
+  "name": "pioneer-hacks2_api",
+  "version": "1.0.0",
+  "description": "the backend for our project for the hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start server.js",
+    "start": "node server.js"
+  },
+  "author": "Ethan Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "websocket": "^1.0.28"
+  }
+}
